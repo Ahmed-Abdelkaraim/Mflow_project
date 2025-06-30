@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.vscode/
+.env/
+*.env
+
+# Data
+data/
+*.csv
+*.h5
+*.npz
+
+# Model checkpoints
+*.pth
+saved_models/
+
+# MLflow experiment runs
+mlruns/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
